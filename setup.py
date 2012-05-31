@@ -23,7 +23,7 @@ setup(
     ],
     install_requires=[
         'urllib3>=1.3'
-    ]
+    ],
     include_package_data=True,
     zip_safe=True,
 )
