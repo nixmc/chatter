@@ -72,5 +72,7 @@ The rest is hopefully self-explanatory! :)
 
 ## Feedback
 
-Email steve.winton[at]nixonmcinnes.co.uk.
-Twitter @[steveWINton](http://twitter.com/steveWINton).
+Send feedback / questions etc. to:
+
+_ Email: steve.winton[at]nixonmcinnes.co.uk.
+_ Twitter: @[steveWINton](http://twitter.com/steveWINton).
