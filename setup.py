@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name = "chatter",
-    version = "0.1.2",
+    version = "0.1.3",
     author = "Steve Winton",
     author_email = "steve.winton@nixonmcinnes.co.uk",
     description = ("The minimalist yet fully featured Chatter API class, heavily inspired by Python Twitter Tools.",),
@@ -21,6 +21,9 @@ setup(
         "Programming Language :: Python :: 2.7",
         "License :: OSI Approved :: MIT License",
     ],
+    install_requires=[
+        'urllib3>=1.3'
+    ]
     include_package_data=True,
     zip_safe=True,
 )
