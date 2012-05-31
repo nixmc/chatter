@@ -1,16 +1,9 @@
 import os
 from setuptools import setup
 
-# Utility function to read the README file.
-# Used for the long_description.  It's nice, because now 1) we have a top level
-# README file and 2) it's easier to type in the README file than to put a raw
-# string in below ...
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
-
 setup(
     name = "chatter",
-    version = "0.1",
+    version = "0.1.2",
     author = "Steve Winton",
     author_email = "steve.winton@nixonmcinnes.co.uk",
     description = ("The minimalist yet fully featured Chatter API class, heavily inspired by Python Twitter Tools.",),
@@ -18,7 +11,7 @@ setup(
     keywords = "chatter api salesforce",
     url = "https://github.com/nixmc/chatter",
     packages=['chatter',],
-    long_description=read('README.md'),
+    long_description=open("./README", "r").read(),
     classifiers=[
         "Development Status :: 4 - Beta",
         "Topic :: Utilities",
@@ -28,4 +21,6 @@ setup(
         "Programming Language :: Python :: 2.7",
         "License :: OSI Approved :: MIT License",
     ],
+    include_package_data=True,
+    zip_safe=True,
 )
